@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
   "scripts": {
-    "start": "npx serve -s public"
+    "start": "vite"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
   }
 }
